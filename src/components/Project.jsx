@@ -170,46 +170,6 @@ const Project = () => {
                   </div>
                 </div>
               </div>
-
-              {/* <!-- project 4 --> */}
-              <div className="pro_1 gap-10 shadow-lg shadow-indigo-800 rounded-2xl items-center p-4 xl:flex">
-                <div className="pro_img w-full h-80 overflow-hidden rounded-2xl mb-4 xl:w-3/4 xl:order-1">
-                  <a
-                    href="https://zahardian.github.io/property-website/"
-                    target="_blank"
-                  >
-                    <div className="box box-4" />
-                  </a>
-                </div>
-                <div className="pro_text justify-end xl:w-1/2">
-                  <h3 className="text-white text-lg font-extrabold tracking-wide relative uppercase mb-4">
-                    Property
-                  </h3>
-                  <p className="text-lg font-medium text-gray-500">
-                    Property websites are online platforms that allow users to
-                    rent houses for personal or business use. The website
-                    provides an interface for searching, comparing and booking
-                    homes.
-                  </p>
-                  <div className="link space-x-10 justify-evenly mt-8 items-center text-white">
-                    <a
-                      href="https://github.com/zahardian/property-website"
-                      target="_blank"
-                      className="text-lg tracking-wide font-semibold hover:text-indigo-800"
-                    >
-                      Code <i className="fa-brands fa-github text-3xl" />
-                    </a>
-                    <a
-                      href="https://zahardian.github.io/property-website/"
-                      target="_blank"
-                      className="text-lg tracking-wide font-semibold hover:text-indigo-800"
-                    >
-                      Live Demo{" "}
-                      <i className="fa-solid fa-arrow-up-right-from-square text-2xl" />
-                    </a>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>

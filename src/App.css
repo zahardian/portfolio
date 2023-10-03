@@ -92,10 +92,6 @@ nav.open {
   background: url(/images/ss-furniture.png);
   background-size: cover;
 }
-.pro_img .box.box-4 {
-  background: url(/images/ss-property.png);
-  background-size: cover;
-}
 .pro_img .box:hover {
   background-position: bottom;
 }
