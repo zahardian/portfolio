@@ -25,12 +25,14 @@ const Project = () => {
                 </div>
                 <div className="pro_text justify-end xl:w-1/2">
                   <h3 className="text-white text-lg font-extrabold tracking-wide relative uppercase mb-4">
-                    Restaurant
+                    Movies
                   </h3>
                   <p className="text-lg font-medium text-gray-500">
-                    Restaurant sushi is an application that allows users to
-                    search for information about various sushi menus in
-                    real-time.
+                    Where to watch movies online? A movie evening always starts
+                    by a very time-consuming and frustrating search of where to
+                    watch movies online. Zaza Movie is there to help you find
+                    all the movies you can stream legally in Indonesia and make
+                    your life easier.
                   </p>
                   <div className="link space-x-10 justify-evenly mt-8 items-center text-white">
                     <a
