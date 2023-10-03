@@ -61,8 +61,8 @@ const Header = () => {
                   </li>
                   <li className="items-center cursor-pointer flex h-16 justify-center w-16 shadow-md shadow-indigo-800 rounded-full">
                     <img
-                      src="/images/logo-tailwind.svg"
-                      alt="tailwind"
+                      src="/images/logo-ts.svg"
+                      alt="ts"
                       className="w-9 h-9"
                     />
                   </li>
@@ -75,9 +75,23 @@ const Header = () => {
                   </li>
                   <li className="items-center cursor-pointer flex h-16 justify-center w-16 shadow-md shadow-indigo-800 rounded-full">
                     <img
+                      src="/images/logo-next.svg"
+                      alt="next"
+                      className="w-10 h-10"
+                    />
+                  </li>
+                  <li className="items-center cursor-pointer flex h-16 justify-center w-16 shadow-md shadow-indigo-800 rounded-full">
+                    <img
+                      src="/images/logo-tailwind.svg"
+                      alt="tailwind"
+                      className="w-9 h-9"
+                    />
+                  </li>
+                  <li className="items-center cursor-pointer flex h-16 justify-center w-16 shadow-md shadow-indigo-800 rounded-full">
+                    <img
                       src="/images/logo-git.svg"
                       alt="git"
-                      className="w-10 h-10"
+                      className="w-9 h-9"
                     />
                   </li>
                 </ul>
