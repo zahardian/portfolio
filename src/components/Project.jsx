@@ -57,10 +57,7 @@ const Project = () => {
               {/* <!-- project 1 --> */}
               <div className="pro_1 gap-10 shadow-lg shadow-indigo-800 rounded-2xl items-center p-4 xl:flex">
                 <div className="pro_img w-full h-80 overflow-hidden rounded-2xl mb-4 xl:w-3/4">
-                  <a
-                    href="https://ecommerce-eight-silk.vercel.app/"
-                    target="_blank"
-                  >
+                  <a href="https://interior-rose.vercel.app/" target="_blank">
                     <div className="box box-1" />
                   </a>
                 </div>
@@ -75,14 +72,14 @@ const Project = () => {
                   </p>
                   <div className="link space-x-10 justify-evenly mt-8 items-center text-white">
                     <a
-                      href="https://github.com/zahardian/ecommerce"
+                      href="https://github.com/zahardian/interior"
                       target="_blank"
                       className="text-lg tracking-wide font-semibold hover:text-indigo-800"
                     >
                       Code <i className="fa-brands fa-github text-3xl" />
                     </a>
                     <a
-                      href="https://ecommerce-eight-silk.vercel.app/"
+                      href="https://interior-rose.vercel.app/"
                       target="_blank"
                       className="text-lg tracking-wide font-semibold hover:text-indigo-800"
                     >
