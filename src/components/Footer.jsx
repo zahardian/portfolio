@@ -13,7 +13,11 @@ const Footer = () => {
               <a href="/" className="text-2xl text-white">
                 <i className="fa-brands fa-linkedin hover:text-indigo-400" />
               </a>
-              <a href="/" className="text-2xl text-white">
+              <a
+                href="https://github.com/zahardian"
+                className="text-2xl text-white"
+                target="_blank"
+              >
                 <i className="fa-brands fa-github hover:text-indigo-400" />
               </a>
             </div>

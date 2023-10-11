@@ -23,7 +23,11 @@ const Header = () => {
                   <a href="/" className="text-3xl">
                     <i className="fa-brands fa-linkedin hover:text-indigo-800 text-white" />
                   </a>
-                  <a href="/" className="text-3xl">
+                  <a
+                    href="https://github.com/zahardian"
+                    className="text-3xl"
+                    target="_blank"
+                  >
                     <i className="fa-brands fa-github hover:text-indigo-800 text-white" />
                   </a>
                 </span>
