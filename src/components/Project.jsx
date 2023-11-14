@@ -16,6 +16,47 @@ const Project = () => {
               Each project is a unique piece of development
             </h3>
             <div className="project-grid space-y-20">
+              {/* <!-- project 1 --> */}
+              <div className="pro_1 gap-10 shadow-lg shadow-indigo-800 rounded-2xl items-center p-4 xl:flex">
+                <div className="pro_img w-full h-80 overflow-hidden rounded-2xl mb-4 xl:w-3/4">
+                  <a
+                    href="https://dev-modernproduct.pantheonsite.io/"
+                    target="_blank"
+                  >
+                    <div className="box box-4" />
+                  </a>
+                </div>
+                <div className="pro_text justify-end xl:w-1/2">
+                  <h3 className="text-white text-lg font-extrabold tracking-wide relative uppercase mb-4">
+                    Product Digital
+                  </h3>
+                  <p className="text-lg font-medium text-gray-500">
+                    We’re Vektora – combining both of aesthetics and usability
+                    in every design we made Vektora Studio was founded on 2020
+                    in Surakarta, Indonesia. Currently we have several members
+                    that working onsite and remote who always ready to actualize
+                    clients’ vision into reality.
+                  </p>
+                  <div className="link space-x-10 justify-evenly mt-8 items-center text-white">
+                    <a
+                      href=""
+                      target="_blank"
+                      className="text-lg tracking-wide font-semibold hover:text-indigo-800"
+                    >
+                      Code <i className="fa-brands fa-github text-3xl" />
+                    </a>
+                    <a
+                      href="https://dev-modernproduct.pantheonsite.io/"
+                      target="_blank"
+                      className="text-lg tracking-wide font-semibold hover:text-indigo-800"
+                    >
+                      Live Demo{" "}
+                      <i className="fa-solid fa-arrow-up-right-from-square text-2xl" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+
               {/* project */}
               <div className="pro_1 gap-10 shadow-lg shadow-indigo-800 rounded-2xl items-center p-4 xl:flex">
                 <div className="pro_img w-full h-80 overflow-hidden rounded-2xl mb-4 xl:w-3/4 xl:order-1">
