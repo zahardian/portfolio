@@ -1,4 +1,4 @@
-import React from "react";
+import SocialMedia from "../components/SocialMedia";
 
 const Footer = () => {
   return (
@@ -10,16 +10,7 @@ const Footer = () => {
               Copyright © 2023. All rights are reserved
             </h3>
             <div className="footer-social flex gap-6 justify-center">
-              <a href="/" className="text-2xl text-white">
-                <i className="fa-brands fa-linkedin hover:text-indigo-400" />
-              </a>
-              <a
-                href="https://github.com/zahardian"
-                className="text-2xl text-white"
-                target="_blank"
-              >
-                <i className="fa-brands fa-github hover:text-indigo-400" />
-              </a>
+              <SocialMedia />
             </div>
           </div>
         </div>

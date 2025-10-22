@@ -76,26 +76,23 @@ nav.open {
   background-position: top;
   transition: ease-in-out 6s;
 }
-.pro_img .box.box-0 {
+.pro_img .box.box-movie {
   background: url(/images/ss-movie.png);
   background-size: cover;
 }
-.pro_img .box.box-1 {
+.pro_img .box.box-interior {
   background: url(/images/ss-interior.png);
   background-size: cover;
 }
-.pro_img .box.box-2 {
+.pro_img .box.box-restaurant {
   background: url(/images/ss-restaurant.png);
   background-size: cover;
 }
-.pro_img .box.box-3 {
+.pro_img .box.box-furniture {
   background: url(/images/ss-furniture.png);
   background-size: cover;
 }
-.pro_img .box.box-4 {
-  background: url(/images/ss-productdigital.png);
-  background-size: cover;
-}
+
 .pro_img .box:hover {
   background-position: bottom;
 }
