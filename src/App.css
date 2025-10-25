@@ -81,15 +81,11 @@ nav.open {
   background-size: cover;
 }
 .pro_img .box.box-interior {
-  background: url(/images/ss-interior.png);
+  background: url(/images/ss-ecommerce-furniture.png);
   background-size: cover;
 }
 .pro_img .box.box-restaurant {
   background: url(/images/ss-restaurant.png);
-  background-size: cover;
-}
-.pro_img .box.box-furniture {
-  background: url(/images/ss-furniture.png);
   background-size: cover;
 }
 

@@ -13,12 +13,12 @@ export default function Projects() {
       order: true,
     },
     {
-      urlVercel: "https://interior-rose.vercel.app/",
+      urlVercel: "https://ecommerce-furniture-seven.vercel.app/",
       title: "Ecommerce",
       description: `With a focus on simplicity and clean design, this store
                     prioritize user experience, making it easy for customers to
                     find and purchase the products they need.`,
-      urlGithub: "https://github.com/zahardian/interior",
+      urlGithub: "https://github.com/zahardian/ecommerce-furniture",
       cover: "box box-interior",
       order: false,
     },
@@ -31,16 +31,6 @@ export default function Projects() {
       urlGithub: "https://github.com/zahardian/restaurant-website",
       cover: "box box-restaurant",
       order: true,
-    },
-    {
-      urlVercel: "https://furniture-gamma-three.vercel.app/",
-      title: "Furniture",
-      description: `Based in Paris, Zaniture offers the innovative spirit and
-                    excellent craftsmanship that sets Jean Royère’s prolific
-                    production apart.`,
-      urlGithub: "https://github.com/zahardian/furniture",
-      cover: "box box-furniture",
-      order: false,
     },
   ];
 
