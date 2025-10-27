@@ -1,18 +1,7 @@
+import useContact from "../hooks/useContact";
+
 export default function Contacts() {
-  const contacts = [
-    {
-      style: true,
-      logo: "fa-solid fa-map-location-dot",
-      title: "Location",
-      title2: "Solo, Indonesia",
-    },
-    {
-      style: false,
-      logo: "fa-solid fa-envelope-open-text",
-      title: "Email",
-      title2: "zahardianreza@gmail.com",
-    },
-  ];
+  const { contacts } = useContact();
 
   return (
     <>

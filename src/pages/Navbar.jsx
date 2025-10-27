@@ -1,14 +1,8 @@
-import { useState } from "react";
+import useNavbar from "../hooks/useNavbar";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
-  let links = [
-    { name: "Home", tag: "home" },
-    { name: "About", tag: "about" },
-    { name: "Project", tag: "project" },
-    { name: "Contact", tag: "contact" },
-  ];
-  const [open, setOpen] = useState(false);
+  const { links, open, setOpen } = useNavbar();
 
   return (
     <>
